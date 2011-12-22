@@ -40,17 +40,14 @@ The ZenPack has the following new Device Class
             Battery seconds remaining
             Output instant headroom
             Output present consumption 
-        Event classes are provided for:
+        Event classes are provided for
             /Power
             /Power/Dell
-            /Power/Dell/battery with mappings for:
-
+            /Power/Dell/battery with mappings for
                 UPS on battery
                 Battery low
                 Battery OK
-
-            /Power/Dell/utility with mapping for:
-
+            /Power/Dell/utility with mapping for
                 Utility present
                 Utility not present
 
@@ -114,7 +111,7 @@ Screenshots
 
 .. External References Below. Nothing Below This Line Should Be Rendered
 
-.. _Latest Package for Python 2.6: https://github.com/jcurry/ZenPacks.ZenSystems.DellApcUps/blob/master/dist/ZenPacks.ZenSystems.DellUps-1.2-py2.6.egg?raw=true
+.. _Latest Package for Python 2.6: https://github.com/jcurry/ZenPacks.ZenSystems.DellUps/blob/master/dist/ZenPacks.ZenSystems.DellUps-1.2-py2.6.egg?raw=true
 
 .. |DellUpsBatteriesComponent| image:: http://github.com/jcurry/ZenPacks.ZenSystems.ApcUps/raw/master/screenshots/ApcUpsBatteries.jpg
 
