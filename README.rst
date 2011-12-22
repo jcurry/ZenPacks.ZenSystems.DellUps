@@ -15,17 +15,17 @@ The ZenPack has the following new Device Class
     /Devices/Power/UPS/DellUps :
 
      
-    Components are: 
-        DellUpsBattery   which has details for:
-            Various elements of battery status 
+    * Components are: 
+        * DellUpsBattery   which has details for:
+            * Various elements of battery status 
 
-    Modeler plugins are: 
-        DellUpsDeviceMap  
-            Gathers Hardware and Software manufacturer and product
-            Serial number
-        DellUpsBatteryMap  
-            Gathers Advanced Battery Monitoring (ABM) status
-            Battery test status
+    * Modeler plugins are: 
+        * DellUpsDeviceMap  
+            * Gathers Hardware and Software manufacturer and product
+            * Serial number
+        * DellUpsBatteryMap  
+            * Gathers Advanced Battery Monitoring (ABM) status
+            * Battery test status
 
     No device templates are provided in this ZenPack.
 
