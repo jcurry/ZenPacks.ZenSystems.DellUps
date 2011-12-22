@@ -12,7 +12,7 @@ Components
 ==========
 
 The ZenPack has the following new Device Class
-    /Devices/Power/UPS/DellUps :
+    * /Devices/Power/UPS/DellUps
 
      
     * Components are: 
@@ -27,29 +27,29 @@ The ZenPack has the following new Device Class
             * Gathers Advanced Battery Monitoring (ABM) status
             * Battery test status
 
-    No device templates are provided in this ZenPack.
+    * No device templates are provided in this ZenPack.
 
-    A component template is provided for DellUpsBattery which provides:
-        Data Sources  
-            Battery seconds remaining
-            Output instant headroom
-            Output present consumption 
-        Thresholds  
-            Low time remaining
-        Graph Definitions  
-            Battery seconds remaining
-            Output instant headroom
-            Output present consumption 
-        Event classes are provided for
-            /Power
-            /Power/Dell
-            /Power/Dell/battery with mappings for
-                UPS on battery
-                Battery low
-                Battery OK
-            /Power/Dell/utility with mapping for
-                Utility present
-                Utility not present
+    * A component template is provided for DellUpsBattery which provides:
+        * Data Sources  
+            * Battery seconds remaining
+            * Output instant headroom
+            * Output present consumption 
+        * Thresholds  
+            * Low time remaining
+        * Graph Definitions  
+            * Battery seconds remaining
+            * Output instant headroom
+            * Output present consumption 
+        * Event classes are provided for
+            * /Power
+            * /Power/Dell
+            * /Power/Dell/battery with mappings for
+                * UPS on battery
+                * Battery low
+                * Battery OK
+            * /Power/Dell/utility with mapping for
+                * Utility present
+                * Utility not present
 
          
 
