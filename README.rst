@@ -59,6 +59,7 @@ Requirements & Dependencies
     * Zenoss Versions Supported: 3.0
     * External Dependencies: The Dell UPS MIB needs to be available on target devices
     * ZenPack Dependencies:
+    * Note that the standard device class /Power/UPS needs to exist.  If not, recreate it.
     * Installation Notes: zenhub and zopectl restart after installing this ZenPack.
     * Configuration: 
 
