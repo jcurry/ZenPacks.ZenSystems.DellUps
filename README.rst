@@ -56,7 +56,7 @@ The ZenPack has the following new Device Class
 Requirements & Dependencies
 ===========================
 
-    * Zenoss Versions Supported: 3.0
+    * Zenoss Versions Supported: 3.x and 4.x
     * External Dependencies: The Dell UPS MIB needs to be available on target devices
     * ZenPack Dependencies:
     * Note that the standard device class /Power/UPS needs to exist.  If not, recreate it.
@@ -69,6 +69,7 @@ Download the appropriate package for your Zenoss version from the list
 below.
 
 * Zenoss 3.0+ `Latest Package for Python 2.6`_
+* Zenoss 4.0+ `Latest Package for Python 2.7`_
 
 Installation
 ============
@@ -94,7 +95,7 @@ developer mode::
 Configuration
 =============
 
-Tested with Zenoss 3.1 against various Dell UPSdevices
+Tested with Zenoss 3.1 and Zenoss 4.2 against various Dell UPSdevices
 
 Change History
 ==============
@@ -104,6 +105,8 @@ Change History
    * Some updates for extra debug
 * 1.2
    * Transferred to new github methods
+* 2.0
+   * Updated for Zenoss 4
 
 Screenshots
 ===========
@@ -112,7 +115,8 @@ Screenshots
 
 .. External References Below. Nothing Below This Line Should Be Rendered
 
-.. _Latest Package for Python 2.6: https://github.com/jcurry/ZenPacks.ZenSystems.DellUps/blob/master/dist/ZenPacks.ZenSystems.DellUps-1.2-py2.6.egg?raw=true
+.. _Latest Package for Python 2.6: https://github.com/downloads/jcurry/ZenPacks.ZenSystems.DellUps/ZenPacks.ZenSystems.DellUps-1.2-py2.6.egg
+.. _Latest Package for Python 2.7: https://github.com/downloads/jcurry/ZenPacks.ZenSystems.DellUps/ZenPacks.ZenSystems.DellUps-2.0-py2.7.egg
 
 .. |DellUpsBatteriesComponent| image:: http://github.com/jcurry/ZenPacks.ZenSystems.ApcUps/raw/master/screenshots/ApcUpsBatteries.jpg
 
